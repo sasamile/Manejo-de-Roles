@@ -1,0 +1,14 @@
+﻿{
+    "builds": [
+        {
+            "src": "Program.cs",
+            "use": "@vercel/static-build"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/.*",
+            "dest": "Parcial.dll"
+        }
+    ]
+}
